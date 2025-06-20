@@ -11,7 +11,6 @@ def chatbot_response(user_input):
         return "Goodbye!"
     else:
         return "I don't understand that."
-print("Chatbot: Type 'bye' to exit.")
-    
+
     if user_input.lower() == "bye":
         break
