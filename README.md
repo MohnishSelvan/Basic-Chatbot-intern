@@ -12,11 +12,6 @@ def chatbot_response(user_input):
     else:
         return "I don't understand that."
 print("Chatbot: Type 'bye' to exit.")
-
-while True:
-    user_input = input("You: ")
-    response = chatbot_response(user_input)
-    print("Chatbot:", response)
     
     if user_input.lower() == "bye":
         break
