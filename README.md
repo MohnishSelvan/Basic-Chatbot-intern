@@ -11,8 +11,6 @@ def chatbot_response(user_input):
         return "Goodbye!"
     else:
         return "I don't understand that."
-
-# Main loop
 print("Chatbot: Type 'bye' to exit.")
 
 while True:
